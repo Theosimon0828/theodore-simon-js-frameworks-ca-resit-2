@@ -1,0 +1,30 @@
+ /* contact */
+ h3 {
+    font-weight: normal !important;
+  }
+  
+  .contact-form {
+    width:50%;
+  }
+  
+  .select-placeholder {
+    color: #666664 !important;
+  }
+  
+  .btn-contact {
+    width:100%;
+    background-color: #a93f55;
+    color: #fff;
+  }
+  
+  .btn-contact:hover {
+    width:100%;
+    background-color: #a93f55;
+    color: #fff;
+  }
+  
+  @media(max-width:844px){
+    .contact-form {
+      width:100%;
+    }
+  }

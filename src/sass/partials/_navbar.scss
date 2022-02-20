@@ -1,0 +1,24 @@
+  /* navbar */
+  
+  .navbar {
+    background-color: #19323c !important;
+    color: #ffffff !important;
+
+    .nav-link{
+      color: #ffffff !important;
+    }
+  }
+
+  
+    
+  @media(max-width:991px){
+    .navbar-nav .nav-link.active{
+      border-style: none !important;
+      
+    }
+  }
+
+  .nav-link.active{
+    text-decoration: underline;
+    text-underline-offset: 7px;
+  }

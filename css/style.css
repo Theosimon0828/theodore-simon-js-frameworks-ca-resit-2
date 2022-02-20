@@ -1,0 +1,90 @@
+body {
+  background-color: #F3F7F0;
+}
+
+/* main section */
+.container-header {
+  color: #a93f55 !important;
+}
+
+/* navbar */
+.navbar {
+  background-color: #19323c !important;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav .nav-link.active {
+    border-style: none !important;
+  }
+}
+
+/* tab section */
+.nav-link-item {
+  color: #a93f55 !important;
+}
+
+.nav-link-item.active {
+  color: black !important;
+}
+
+.nav-tabs {
+  display: none;
+}
+
+.tab-name-responsive {
+  color: #a93f55 !important;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .nav-tabs {
+    display: flex;
+  }
+  .card {
+    border: none;
+  }
+  .card .card-header {
+    display: none;
+  }
+  .card .collapse {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .tab-content > .tab-pane {
+    display: block !important;
+    opacity: 1;
+  }
+}
+
+/* contact */
+h3 {
+  font-weight: normal !important;
+}
+
+.contact-form {
+  width: 50%;
+}
+
+.select-placeholder {
+  color: #666664 !important;
+}
+
+.btn-contact {
+  width: 100%;
+  background-color: #a93f55;
+  color: #fff;
+}
+
+.btn-contact:hover {
+  width: 100%;
+  background-color: #a93f55;
+  color: #fff;
+}
+
+@media (max-width: 844px) {
+  .contact-form {
+    width: 100%;
+  }
+}
